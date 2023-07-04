@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- NAVBAR SECTION  -->
+    <section>
+        <header>
+            <div class="container1">
+                <nav>
+                    <div class=" container2">
+                        <img src=".\loan.png" alt="img" height="70px" width="70px" />
+                    </div>
+
+                    <div class="container3">
+                        <div class="container6">
+                            <a href="index.js" class="nav-names">Home</a>
+                        </div>
+                        <div class="dropdown">
+                            <div class="container7">
+                                <p class="nav-categories">Categories <span><img src=".\arrow.png"></img></span> </p>
+                            </div>
+                            <div class="dropdown-options">
+                                <a href="./Studentloan.html" class="nav-names">Student Loan</a>
+                                <a href="./selfemployeed.html" class="nav-names">Self Employee Loan</a>
+                                <a href="./salaried.html" class="nav-names">Salaried Loan</a>
+                            </div>
+                        </div>
+
+
+                        <div class="dropdown">
+                            <div class="container4">
+                                <p class="nav-categories">Loan Requirement <span><img src=".\arrow.png"></img></span>
+                                </p>
+                            </div>
+                            <div class="dropdown-options">
+                                <a href="./Purpose.html" class="nav-names">Purpose Of Loan</a>
+                                <a href="./emi.html" class="nav-names">EMI Page</a>
+
+                            </div>
+                        </div>
+                        <div class="container5">
+                            <a href="./About.html" class="nav-names">About Us</a>
+                        </div>
+
+                        <button class="btn2">
+                            <li>Pay EMI</li>
+                        </button>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+
+
+
+    <!-- first section  -->
+    <div class="sec1">
+        <div class="sec1-left">
+            <h1>Borrow. With Confidence.</h1>
+            <p>Zizmu is a new-age financial services platform that leverages technology and data science across its
+                suite of offerings.</p>
+            <button class="btn-apply-now">
+                <center>Apply Now</center>
+            </button>
+        </div>
+        <div class="sec1-right">
+            <img src="home-page-sec1.gif" alt="gif" height="375px" width="400px" />
+        </div>
+    </div>
+
+    <!-- cards section  -->
+    <div class="card-container">
+        <div class="card1">
+            <img src="./student-loan-logo.png" height="70px" width="70px" alt="image1" />
+            <b>
+                <h5>STUDENT LOAN</h5>
+            </b>
+            <p>Just fill a few basic details and get an instant approval</p>
+            <a href="./Studentloan.html" style="text-decoration: none; color: black;">
+                <p class="apply-now">APPLY NOW</p>
+            </a>
+        </div>
+        <div class="card2">
+            <img src="./salaried-loan-logo.png" height="70px" width="90px" alt="image2" />
+            <b>
+                <h5>SALARIED LOAN</h5>
+            </b>
+            <p>Just fill a few basic details and get an instant approval</p>
+            <a href="./salaried.html" style="text-decoration: none; color: black;">
+                <p class="apply-now">APPLY NOW</p>
+            </a>
+        </div>
+        <div class="card3">
+
+            <img src="./selfemployeed-loan-logo.png" alt="image3" height="70px" width="70px" />
+            <b>
+                <h5>SELF EMPLOYED LOAN</h5>
+            </b>
+            <p>Just fill a few basic details and get instant approval</p>
+            <a href="./selfemployeed.html" style="text-decoration: none; color: black;">
+                <p class="apply-now">APPLY NOW</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- CAROUSEL SECTION  -->
+    <div style={{ display: 'block' , width: 1400, padding: 10 }}>
+        <h2 class='carousel-h2'>Customer Success Stories</h2>
+
+        <Carousel className='carousel-icon1'>
+            <Carousel.Item interval={1500}>
+
+                <div class="carousel-card-container1">
+                    <div class="carousel-txtimg2">
+
+                            <div class="carousel-img-card-container1">
+                                <img src="./raj.jpeg" alt="raj img" height="50px" width="50px"
+                                    class="carousel-img-card-container2" />
+                            </div>
+                            <div class="nikhil">
+                                <h4>BHAGYA RAJ</h4>
+                                <p class="carousel-p1">CEO</p>
+                            </div>
+                    </div>
+                    <p>In 2021, I was searching for funding to expand my business. During my quest, I learned about
+                        InCred Finance and contacted them to discuss my loan needs. The staff was very supportive and
+                        disbursed the amount in no time. I am thoroughly satisfied with the customer service as I
+                        received assistance throughout my loan tenure and received prompt responses to all of my
+                        queries. Without a question, I'll endorse InCred Financial to colleagues and relatives looking
+                        for a business loan.</p>
+                    
+                </div>
+
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+                <div class="carousel-card-container2">
+                    <div class="carousel-txtimg2">
+                        <div class="carousel-img-card-container2">
+                            <img src="./nikhil.jpg" alt="nikhil img" height="50px" width="50px"
+                                class="carousel-img-card-container2" />
+                        </div>
+                        <div class="nikhil">
+                            <h4>NIKHIL SAI</h4>
+                            <p class="carousel-p">Student</p>
+                        </div>
+                    </div>
+                    <p>I have always been passionate about studying abroad, but since my income was a question of
+                        concern, I didn't get the expected support from any financial institutions. During this process,
+                        I came across InCred's Education Loan and reached out to them. The assistance I got from
+                        InCred's team made me feel valued and assured me of being supported. And here I am, excelling in
+                        my career in Computer Science at Rivier University in the USA.</p>
+                </div>
+
+
+
+            </Carousel.Item>
+
+
+        </Carousel>
+
+    </div>
+    <!-- footer section  -->
+    <div>
+        <div class="main-footer">
+            <div class="card-conatiner">
+                <h4>ZIZMU LOANS</h4>
+
+                <p>Plot No:27, Raju Colony,<br></br>
+                    opp.Park hyatt Hotel Lane,<br></br>
+                    banjara Hills<br></br>
+                    Hyderabad,<br></br>
+                    Telangana-50034,<br></br>
+                    For Equiry:7337326804<br></br>
+                    Web/app Support:7702288603<br></br>
+                </p>
+            </div>
+            <div class="footer1">
+                <h3 class="head3">Use Links</h3>
+
+                <ul class="footer-ul">
+
+                    <li><p><a href="./Loanapplication.html" class="footer-a"><span> > </span>Home</a></p></li>
+                    <li><p><a href="./Studentloan.html" class="footer-a"><span> > </span>Categories</a></p></li>
+                    <li><p><a href="./About.html" class="footer-a"><span> > </span>About Us</a></p></li>
+                    <li><p><a href="./emi.html" class="footer-a"><span> > </span>Loan requried</a></p></li>
+                    <li><p><a href="#" class="footer-a"><span> > </span>Terms Of Services</a></p></li>
+                    <li><p><a href="#" class="footer-a"><span> > </span>Privcy Policy</a></p></li>
+                </ul>
+            </div>
+            <div class="footer2">
+                <h3 class="head3">Our services</h3>
+                <ul class="footer-ul">
+                    <li><p><a href="./Studentloan.html" class="footer-a"><span> > </span>Student loan</a></p></li>
+                    <li><p><a href="./selfemployeed.html" class="footer-a"><span> > </span>Self Employed loan</a></p></li>
+                    <li><p><a href="./salaried.html" class="footer-a"><span> > </span>Salaried loan</a></p></li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <img src=".\ZIZMU LOGO 2D.png" alt="zizmu logo" height="300px" width="300px" />
+                <h3 class="head3">Social Media</h3>
+                <div class="footer-img1">
+
+                    <div class="twitter"> <i class="fa-brands fa-twitter" style="color: #ffffff;"></i></div>
+                    <div class="twitter"> <i class="fa-brands fa-facebook-f" style="color: #fcfcfc;"></i></div>
+                    <div class="twitter"> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div>
+                    <div class="twitter"> <i class="fa-brands fa-linkedin-in" style="color: #fcfcfc;"></i></div>
+                    <div class="twitter"> <i class="fa-brands fa-youtube" style="color: #fcfcfc;"></i></div>
+                </div>
+
+            </div>
+
+        </div>
+        <hr class="footer-hr" />
+        <div class="cpoy1">
+            <article><AiOutlineCopyright />Copy Right 2023 Zizmu loan  </article>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
